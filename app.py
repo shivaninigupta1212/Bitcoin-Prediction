@@ -168,13 +168,13 @@ st.markdown(
 )
 
 # Load models
-lstm_model = load_model("D:\\Projects\\Bitcoin Price Prediction\\lstm_model.h5")
+lstm_model = load_model(""C:\Users\shivi\OneDrive\Desktop\My Projects\Sneha bitcoin prediction\lstm_model.h5"")
 scaler = MinMaxScaler()
 
-with open("D:\\Projects\\Bitcoin Price Prediction\\prophet_model.pkl", 'rb') as f:
+with open("C:\Users\shivi\OneDrive\Desktop\My Projects\Sneha bitcoin prediction\prophet_model.pkl", 'rb') as f:
     prophet_model = pickle.load(f)
 
-with open("D:\\Projects\\Bitcoin Price Prediction\\arima_model.pkl", 'rb') as f:
+with open("C:\Users\shivi\OneDrive\Desktop\My Projects\Sneha bitcoin prediction\arima_model.pkl", 'rb') as f:
     arima_model = joblib.load(f)
 
 nixtla_client = NixtlaClient(api_key='nixtla-tok-xmAyKHqhIBdxxbi4cHkXXu2QxqAIhzfmykdQw4SkorJjqlO2ZjI5JuDQ0yYiCZplmhaDM0DPbnDbhpMs')
