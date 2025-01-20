@@ -19,3 +19,4 @@ numba
 window-ops
 nixtla
 joblib
+streamlit_extras
