@@ -168,7 +168,7 @@ st.markdown(
 )
 
 # Load models
-lstm_model = load_model(r"C:\\Users\\shivi\\OneDrive\\Desktop\\My Projects\\Sneha bitcoin prediction\\lstm_model.h5")
+lstm_model = load_model(r""C:\Users\shivi\OneDrive\Desktop\My Projects\Sneha bitcoin prediction\lstm_model.h5"")
 
 scaler = MinMaxScaler()
 
